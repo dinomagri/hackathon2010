@@ -1,0 +1,24 @@
+O arquivo Criminalidade.pde é o principal, as classes Assasinatos.pde e Bairros.pde estão em arquivo separados, e os dados assasinatos.tsv e bairros.tsv estão na pasta data.
+
+Veja os comentários no código!
+
+TODO List
+
+- Verificar quantidade de vezes que os bairros aparecem na listagem de assasinatos, i.e:
+
+bairros[0] = 0; // Bairro na posição 0, tem 0 assasinatos
+bairros[1] = 4; // Bairro na posição 1, tem 4 assasinatos
+bairros[2] = 2; // Bairro na posição 2, tem 2 assasinatos
+bairros[3] = 0; // Bairro na posição 3, tem 0 assasinatos
+bairros[4] = 1; // Bairro na posição 4, tem 1 assasinatos
+bairros[5] = 2; // Bairro na posição 5, tem 2 assasinatos
+
+- Gerar ellipse dependendo da quantidade de vezes que acontece um assasinato em determinado bairro. Ou seja, quanto maior a quantidade de assasinatos num bairro, maior será!
+
+- Evento de Mouse - Quando mouse passar sobre uma ellipse mostrar as datas em que ocorreram os assasinatos.
+
+- Colocar a fonte de onde tiramos os dados
+
+- Porta para Web :-)
+
+
